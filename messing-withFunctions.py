@@ -15,7 +15,7 @@ def fun1 (*args):
 
 fun1("a", "b", "c")'''
 
-def ave(*values):
+def ave(values):
     number_of_values = len(values)
     sum = 0
     for value in values:
